@@ -4,6 +4,7 @@ import LoginView from '@/components/login.vue'
 import DashboardView from '@/components/dashboard.vue'
 import PersonasView from '@/components/personas.vue'
 import UsuarioView from '@/components/usuario.vue'
+import ResultadosEstudioView from '@/components/resultadosEstudio.vue'
 
 
 const router = createRouter({
@@ -27,6 +28,16 @@ const router = createRouter({
         path: '/personas',
         name: 'personas',
         component: PersonasView 
+      },
+      {
+        path: '/usuario',
+        name: 'usuario',
+        component: UsuarioView 
+      },
+      {
+        path: '/resultadosEstudio',
+        name: 'resultadosEstudio',
+        component: ResultadosEstudioView 
       }]
     }
   
