@@ -5,7 +5,7 @@ import DashboardView from '@/components/dashboard.vue'
 import PersonasView from '@/components/personas.vue'
 import UsuarioView from '@/components/usuario.vue'
 import ResultadosEstudioView from '@/components/resultadosEstudio.vue'
-import Estudio from '@/components/estudio.vue'
+import EstudioView from '@/components/estudio.vue'
 
 
 const router = createRouter({
@@ -20,11 +20,6 @@ const router = createRouter({
       path: '/register',
       name: 'register',
       component: RegisterUser
-    },
-     {
-      path: '/estudio',
-      name: 'estudio',
-      component: Estudio
     },
     {
       path: '/dashboard',
@@ -44,7 +39,12 @@ const router = createRouter({
         path: '/resultadosEstudio',
         name: 'resultadosEstudio',
         component: ResultadosEstudioView 
-      }]
+      },
+      {
+       path: '/estudio',
+       name: 'estudio',
+       component: EstudioView
+     }]
     }
   
    
