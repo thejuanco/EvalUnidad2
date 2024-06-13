@@ -4,6 +4,17 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
  
-  <RouterView />
+  <RouterView></RouterView>
+  <FooterView/>
 </template>
 
+<script>
+import FooterView from '@/components/footerDash.vue';
+
+export default {
+  name: "footer", // Renaming the app so it won't conflict with the child component
+  components: {
+    FooterView
+  }
+}
+</script>
