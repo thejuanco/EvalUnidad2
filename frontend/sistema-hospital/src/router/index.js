@@ -6,7 +6,8 @@ import PersonasView from '@/components/personas.vue'
 import UsuarioView from '@/components/usuario.vue'
 import ResultadosEstudioView from '@/components/resultadosEstudio.vue'
 import EstudioView from '@/components/estudio.vue'
-
+import TablaResutadoEstudioView from '@/components/tablaResultadoEstudio.vue'
+import TablaEstudiosView from '@/components/tablaEstudios.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -41,10 +42,20 @@ const router = createRouter({
         component: ResultadosEstudioView 
       },
       {
+        path: '/tablaResultadoEstudio',
+        name: 'tablaResultadoEstudio',
+        component: TablaResutadoEstudioView 
+      },
+      {
        path: '/estudio',
        name: 'estudio',
        component: EstudioView
-     }]
+     },
+     {
+      path: '/tablaEstudios',
+      name: 'tablaEstudios',
+      component: TablaEstudiosView
+    }]
     }
   
    

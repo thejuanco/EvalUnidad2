@@ -156,13 +156,23 @@ folder_managed
    
                      <li>
                         <RouterLink to="/estudio">
-                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Estudios</a>
+                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Registrar Estudios</a>
                      </RouterLink>                      
                      </li>
                      <li>
-                        <RouterLink to="/resultadosEstudio">
-                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Resultados de Estudios</a>
+                        <RouterLink to="/tablaEstudios">
+                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Listar Estudios</a>
                      </RouterLink>                     
+                     </li>
+                     <li>
+                        <RouterLink to="/resultadosEstudio">
+                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Registrar Resultados de Estudios</a>
+                     </RouterLink>                     
+                     </li>
+                     <li>
+                        <RouterLink to="/tablaResultadoEstudio">
+                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Listar Resultados de Estudios</a>
+                     </RouterLink>                      
                      </li>
                </ul>
             </li>
