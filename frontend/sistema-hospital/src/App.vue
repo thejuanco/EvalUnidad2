@@ -18,3 +18,15 @@ export default {
   }
 }
 </script>
+<style scoped>
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilos para el componente Footer */
+footer {
+  margin-top: auto;
+}
+</style>

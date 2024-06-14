@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-white">
+    <section class="bg-white fixed bottom-0 left-0 right-0 w-full ">
     <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <nav class="flex flex-wrap justify-center -mx-5 -my-2">
             <div class="px-5 py-2">
@@ -69,9 +69,5 @@
             © 2021 SomeCompany, Inc. All rights reserved.
         </p>
     </div>
-</section><div class="w-full h-32 bg-gray-800 rounded-lg absolute">
-        <div>
-            <h1 class="text-white p-3">Buscanos en nuestras redes sociales</h1>
-        </div>
-    </div>
+</section>
 </template>
